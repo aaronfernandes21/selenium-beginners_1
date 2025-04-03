@@ -19,7 +19,7 @@ import time
 from selenium import webdriver
 
 # Create an instance of Firefox WebDriver
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 # Maximize the browser window
 driver.maximize_window()
 

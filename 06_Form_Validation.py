@@ -20,7 +20,7 @@ import time
 from selenium import webdriver
 
 # Create an instance of IE WebDriver
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 # Maximize the browser window
 driver.maximize_window()
 # Navigate to Qxf2 Tutorial page
